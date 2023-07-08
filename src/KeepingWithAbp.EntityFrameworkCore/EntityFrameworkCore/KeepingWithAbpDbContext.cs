@@ -113,5 +113,21 @@ public class KeepingWithAbpDbContext :
 
         builder.ConfigureBank();
         builder.ConfigureBankBranches();
+        builder.ConfigureBankAccounts();
+        builder.ConfigureUnit();
+        builder.ConfigureCurrent();
+        builder.ConfigureWareHouse();
+        builder.ConfigurePeriod();
+        builder.ConfigureBill();
+        builder.ConfigureBillTransaction();
+        builder.ConfigureCompanyParameter();
+        builder.ConfigureLabor();
+        builder.ConfigureSafe();
+        builder.ConfigureReceipt();
+        builder.ConfigureReceiptTransaction();
+        builder.ConfigureExpense();
+        builder.ConfigureSpecialCode();
+        builder.ConfigureStock();
+        builder.ConfigureBranch();
     }
 }
