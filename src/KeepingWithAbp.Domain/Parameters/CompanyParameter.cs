@@ -17,7 +17,7 @@ namespace KeepingWithAbp.Parameters
         public Guid UserId { get; set; }
         public Guid BranchId { get; set; }
         public Guid PeriodId { get; set; }
-        public Guid? WareHouseId { get; set; }
+        public Guid? WarehouseId { get; set; }
         public IdentityUser User { get; set; }
         public Branch Branch { get; set; }
         public Period Period { get; set; }

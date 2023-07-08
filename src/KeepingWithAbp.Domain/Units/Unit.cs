@@ -1,6 +1,7 @@
 ﻿using KeepingWithAbp.Expenses;
 using KeepingWithAbp.Labors;
 using KeepingWithAbp.SpecialCodes;
+using KeepingWithAbp.Stocks;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,5 +24,6 @@ namespace KeepingWithAbp.Units
         public ICollection<Labor> Labors { get; set; }
         public ICollection<Unit> Units { get; set; }
         public ICollection<Expense> Expenses { get; set; }
+        public ICollection<Stock> Stocks { get; set; }
     }
 }

@@ -18,7 +18,7 @@ namespace KeepingWithAbp.Receipts
         public int TrackingNo { get; set; }
         public Guid? CheckBankId { get; set; }
         public Guid? CheckBankBranchId { get; set; }
-        public string ChechAccountNo { get; set; }
+        public string CheckhAccountNo { get; set; }
         public string DocumentNo { get; set; }
         public DateTime Date { get; set; }
         public string PrincipalDebtor { get; set; }

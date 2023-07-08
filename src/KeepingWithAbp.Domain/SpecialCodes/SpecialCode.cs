@@ -3,6 +3,7 @@ using KeepingWithAbp.BankBranches;
 using KeepingWithAbp.Banks;
 using KeepingWithAbp.Bills;
 using KeepingWithAbp.Currents;
+using KeepingWithAbp.Expenses;
 using KeepingWithAbp.Labors;
 using KeepingWithAbp.Receipts;
 using KeepingWithAbp.Safes;
@@ -48,7 +49,7 @@ namespace KeepingWithAbp.SpecialCodes
         public ICollection<Receipt> SpecialCode2Receipts { get; set; }
         public ICollection<Stock> SpecialCode1Stocks { get; set; }
         public ICollection<Stock> SpecialCode2Stocks { get; set; }
-        public ICollection<Stock> SpecialCode1Expenses { get; set; }
-        public ICollection<Stock> SpecialCode2Expenses { get; set; }
+        public ICollection<Expense> SpecialCode1Expenses { get; set; }
+        public ICollection<Expense> SpecialCode2Expenses { get; set; }
     }
 }
